@@ -64,3 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+ nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+ nav a {
+	margin: 0 20px;
+}
+ .logo{
+	margin-left: 140px;
+}
