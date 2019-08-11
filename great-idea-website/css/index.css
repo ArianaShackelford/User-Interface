@@ -72,12 +72,23 @@ h1, h2, h3, h4, h5 {
 
  nav {
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 30px;
+	color: lightgray;
 }
 
  nav a {
 	margin: 0 20px;
+	
 }
  .logo{
 	margin-left: 140px;
+}
+header{
+	display:inline-block;
+}
+.column1{
+	display:inline-block;
+}
+p{
+	margin: 20px 100px;
 }
