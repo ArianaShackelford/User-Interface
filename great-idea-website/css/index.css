@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 900px;
 	margin: auto;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 } 
 
  nav {
@@ -88,14 +88,15 @@ h1, h2, h3, h4, h5 {
 .main-header{
 
 	display: inline-block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin: 50px 50px;
 	width: 378px;
 	height: 380px;
 }
 h1{
-	font-size: 55px;
+	font-size: 80px;
 	text-align: center;
+	padding: 25px;
 }
 h2{
 	width: 150px;
@@ -112,19 +113,19 @@ h2{
 	margin: 10px;
 	margin-right: 20px;
 	margin-top: 60px;
-	border:1px solid red;
+	/* border:1px solid red; */
 	
 }
 
 p {
-	margin: 20px;
-	width: 250px;
-	height: 150px;
+	margin: 15px;
 	padding: 5px;
-	background: darkslateblue;
+	/* background: darkslateblue; */
 }
 h4{
-	font-size: 24px;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 50px
 	
 }
 .column1{
@@ -137,6 +138,11 @@ h4{
 	border-top: 1px;
 	display: inline-block;
 	column-count: 2;
+	border-top: 1px solid black;
+}
+.middle-img{
+	width: 900px;
+	
 }
 .column2{
 	float: left;
@@ -148,4 +154,8 @@ h4{
 	border-bottom: 1px;
 	display: inline-block;
 	column-count: 3;
+	border-bottom: 1px solid black;
+}
+footer{
+	margin: 15px;
 }
