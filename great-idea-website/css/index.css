@@ -64,15 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 .container{
 	width: 900px;
 	margin: auto;
 	border: 1px solid red;
-}
+} 
 
  nav {
 	display: inline-block;
 	margin-top: 30px;
+	margin-left: 20px;
 	color: lightgray;
 }
 
@@ -81,14 +83,48 @@ h1, h2, h3, h4, h5 {
 	
 }
  .logo{
-	margin-left: 140px;
+	margin-left: 100px;
 }
-header{
-	display:inline-block;
+.main-header{
+	display: inline-block;
+	border: 1px solid red;
+	margin: 50px 50px;
+	width: 378px;
+	height: 380px;
+
 }
-.column1{
-	display:inline-block;
+h1{
+	font-size: 55px;
+	text-align: center;
 }
-p{
-	margin: 20px 100px;
+h2{
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 20px 105px;
+}
+
+.header_img{
+	display: inline-block;
+	margin: 10px;
+	margin-right: 20px;
+	margin-top: 60px;
+	border:1px solid red;
+	
+}
+.main-header .header_img{
+	display: inline;
+}
+p {
+	margin: 20px;
+	width: 300px;
+	height: 150px;
+	padding: 5px;
+	background: darkslateblue;
+}
+h4{
+	font-size: 24px;
+	
 }
