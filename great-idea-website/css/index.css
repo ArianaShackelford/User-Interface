@@ -86,12 +86,12 @@ h1, h2, h3, h4, h5 {
 	margin-left: 100px;
 }
 .main-header{
+
 	display: inline-block;
 	border: 1px solid red;
 	margin: 50px 50px;
 	width: 378px;
 	height: 380px;
-
 }
 h1{
 	font-size: 55px;
@@ -107,6 +107,7 @@ h2{
 }
 
 .header_img{
+	float: right;
 	display: inline-block;
 	margin: 10px;
 	margin-right: 20px;
@@ -114,12 +115,10 @@ h2{
 	border:1px solid red;
 	
 }
-.main-header .header_img{
-	display: inline;
-}
+
 p {
 	margin: 20px;
-	width: 300px;
+	width: 250px;
 	height: 150px;
 	padding: 5px;
 	background: darkslateblue;
@@ -127,4 +126,26 @@ p {
 h4{
 	font-size: 24px;
 	
+}
+.column1{
+	float: left;
+	width: 899px;
+	padding: 35px 0px 35px 0px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	border-style: solid;
+	border-top: 1px;
+	display: inline-block;
+	column-count: 2;
+}
+.column2{
+	float: left;
+	width: 899px;
+	padding: 35px 0px 35px 0px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	border-style: solid;
+	border-bottom: 1px;
+	display: inline-block;
+	column-count: 3;
 }
