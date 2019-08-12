@@ -156,6 +156,15 @@ h4{
 	column-count: 3;
 	border-bottom: 1px solid black;
 }
-footer{
-	margin: 15px;
+address{
+	margin-left: 15px;
+	padding:5px;
+}
+#cont{
+	margin-top: 250px;
+}
+footer a {
+	display:inline-block;
+	width: 900px;
+	text-align: center;
 }
