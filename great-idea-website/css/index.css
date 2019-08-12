@@ -87,10 +87,11 @@ h1, h2, h3, h4, h5 {
 
 .titlecontent{
 	width: 900px;
-	height: 600px;
+	height: 500px;
 	margin: auto;
 	display: inline-block;
-	border: 1px solid black;
+	box-sizing: border-box;
+	
 }
 
 .titlebox{
@@ -99,16 +100,30 @@ h1, h2, h3, h4, h5 {
 	height: 400px;
 	margin:50px;
 	margin-bottom: 50px;
-	
-	border: 1px solid black;
+	vertical-align:top;
+	/* border: 1px solid black; */
 }
 
 .header_img{
 	display:inline-block;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin: 50px 50px;
 }
 
+h1{
+	font-size: 75px;
+	text-align: center;
+	padding: 25px;
+}
+
+h2{
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 20px 105px;
+}
 
 .top_content{
 	display: inline-block;
@@ -116,6 +131,7 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 	border-top: 1px solid black;
 	padding: 20px 0px;
+	
 }
 
 .featuresbox{
@@ -128,6 +144,35 @@ h1, h2, h3, h4, h5 {
 .aboutbox{
 	display: inline-block;
 	width: 400px;
+	margin: auto;
+	padding: 20px;
+}
+
+.bottom_content{
+	display: inline-block;
+	width: 900px;
+	box-sizing: border-box;
+	border-bottom: 1px solid black;
+	padding: 20px 0px;
+}
+
+.productbox{
+	display: inline-block;
+	width: 290px;
+	margin: auto;
+	padding: 20px;
+}
+
+.visionbox{
+	display: inline-block;
+	width: 290px;
+	margin: auto;
+	padding: 20px;
+}
+
+.servicebox{
+	display: inline-block;
+	width:290px;
 	margin: auto;
 	padding: 20px;
 }
@@ -195,7 +240,7 @@ address{
 	padding:5px;
 }
 #cont{
-	margin-top: 250px;
+	margin-top: 50px;
 }
 footer a {
 	display:inline-block;
